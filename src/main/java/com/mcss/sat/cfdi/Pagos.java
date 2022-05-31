@@ -1,8 +1,8 @@
 //
-// Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2
-// Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a>
-// Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen.
-// Generado el: 2022.02.19 a las 05:22:48 PM CST
+// Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
+// Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+// Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+// Generado el: 2022.05.30 a las 07:05:33 PM CDT 
 //
 
 
@@ -23,9 +23,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 /**
  * <p>Clase Java para anonymous complex type.
- *
+ * 
  * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
- *
+ * 
  * <pre>
  * &lt;complexType&gt;
  *   &lt;complexContent&gt;
@@ -262,13 +262,13 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *   &lt;/complexContent&gt;
  * &lt;/complexType&gt;
  * </pre>
- *
- *
+ * 
+ * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
     "pago"
-}, namespace = "")
+})
 @XmlRootElement(name = "Pagos", namespace = "http://www.sat.gob.mx/Pagos")
 public class Pagos {
 
@@ -279,25 +279,25 @@ public class Pagos {
 
     /**
      * Gets the value of the pago property.
-     *
+     * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
      * This is why there is not a <CODE>set</CODE> method for the pago property.
-     *
+     * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
      *    getPago().add(newItem);
      * </pre>
-     *
-     *
+     * 
+     * 
      * <p>
      * Objects of the following type(s) are allowed in the list
      * {@link Pagos.Pago }
-     *
-     *
+     * 
+     * 
      */
     public List<Pagos.Pago> getPago() {
         if (pago == null) {
@@ -308,11 +308,11 @@ public class Pagos {
 
     /**
      * Obtiene el valor de la propiedad version.
-     *
+     * 
      * @return
      *     possible object is
      *     {@link String }
-     *
+     *     
      */
     public String getVersion() {
         if (version == null) {
@@ -324,11 +324,11 @@ public class Pagos {
 
     /**
      * Define el valor de la propiedad version.
-     *
+     * 
      * @param value
      *     allowed object is
      *     {@link String }
-     *
+     *     
      */
     public void setVersion(String value) {
         this.version = value;
@@ -337,9 +337,9 @@ public class Pagos {
 
     /**
      * <p>Clase Java para anonymous complex type.
-     *
+     * 
      * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
-     *
+     * 
      * <pre>
      * &lt;complexType&gt;
      *   &lt;complexContent&gt;
@@ -559,8 +559,8 @@ public class Pagos {
      *   &lt;/complexContent&gt;
      * &lt;/complexType&gt;
      * </pre>
-     *
-     *
+     * 
+     * 
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
@@ -606,25 +606,25 @@ public class Pagos {
 
         /**
          * Gets the value of the doctoRelacionado property.
-         *
+         * 
          * <p>
          * This accessor method returns a reference to the live list,
          * not a snapshot. Therefore any modification you make to the
          * returned list will be present inside the JAXB object.
          * This is why there is not a <CODE>set</CODE> method for the doctoRelacionado property.
-         *
+         * 
          * <p>
          * For example, to add a new item, do as follows:
          * <pre>
          *    getDoctoRelacionado().add(newItem);
          * </pre>
-         *
-         *
+         * 
+         * 
          * <p>
          * Objects of the following type(s) are allowed in the list
          * {@link Pagos.Pago.DoctoRelacionado }
-         *
-         *
+         * 
+         * 
          */
         public List<Pagos.Pago.DoctoRelacionado> getDoctoRelacionado() {
             if (doctoRelacionado == null) {
@@ -635,25 +635,25 @@ public class Pagos {
 
         /**
          * Gets the value of the impuestos property.
-         *
+         * 
          * <p>
          * This accessor method returns a reference to the live list,
          * not a snapshot. Therefore any modification you make to the
          * returned list will be present inside the JAXB object.
          * This is why there is not a <CODE>set</CODE> method for the impuestos property.
-         *
+         * 
          * <p>
          * For example, to add a new item, do as follows:
          * <pre>
          *    getImpuestos().add(newItem);
          * </pre>
-         *
-         *
+         * 
+         * 
          * <p>
          * Objects of the following type(s) are allowed in the list
          * {@link Pagos.Pago.Impuestos }
-         *
-         *
+         * 
+         * 
          */
         public List<Pagos.Pago.Impuestos> getImpuestos() {
             if (impuestos == null) {
@@ -664,11 +664,11 @@ public class Pagos {
 
         /**
          * Obtiene el valor de la propiedad fechaPago.
-         *
+         * 
          * @return
          *     possible object is
          *     {@link XMLGregorianCalendar }
-         *
+         *     
          */
         public XMLGregorianCalendar getFechaPago() {
             return fechaPago;
@@ -676,11 +676,11 @@ public class Pagos {
 
         /**
          * Define el valor de la propiedad fechaPago.
-         *
+         * 
          * @param value
          *     allowed object is
          *     {@link XMLGregorianCalendar }
-         *
+         *     
          */
         public void setFechaPago(XMLGregorianCalendar value) {
             this.fechaPago = value;
@@ -688,11 +688,11 @@ public class Pagos {
 
         /**
          * Obtiene el valor de la propiedad formaDePagoP.
-         *
+         * 
          * @return
          *     possible object is
          *     {@link String }
-         *
+         *     
          */
         public String getFormaDePagoP() {
             return formaDePagoP;
@@ -700,11 +700,11 @@ public class Pagos {
 
         /**
          * Define el valor de la propiedad formaDePagoP.
-         *
+         * 
          * @param value
          *     allowed object is
          *     {@link String }
-         *
+         *     
          */
         public void setFormaDePagoP(String value) {
             this.formaDePagoP = value;
@@ -712,11 +712,11 @@ public class Pagos {
 
         /**
          * Obtiene el valor de la propiedad monedaP.
-         *
+         * 
          * @return
          *     possible object is
          *     {@link CMoneda }
-         *
+         *     
          */
         public CMoneda getMonedaP() {
             return monedaP;
@@ -724,11 +724,11 @@ public class Pagos {
 
         /**
          * Define el valor de la propiedad monedaP.
-         *
+         * 
          * @param value
          *     allowed object is
          *     {@link CMoneda }
-         *
+         *     
          */
         public void setMonedaP(CMoneda value) {
             this.monedaP = value;
@@ -736,11 +736,11 @@ public class Pagos {
 
         /**
          * Obtiene el valor de la propiedad tipoCambioP.
-         *
+         * 
          * @return
          *     possible object is
          *     {@link BigDecimal }
-         *
+         *     
          */
         public BigDecimal getTipoCambioP() {
             return tipoCambioP;
@@ -748,11 +748,11 @@ public class Pagos {
 
         /**
          * Define el valor de la propiedad tipoCambioP.
-         *
+         * 
          * @param value
          *     allowed object is
          *     {@link BigDecimal }
-         *
+         *     
          */
         public void setTipoCambioP(BigDecimal value) {
             this.tipoCambioP = value;
@@ -760,11 +760,11 @@ public class Pagos {
 
         /**
          * Obtiene el valor de la propiedad monto.
-         *
+         * 
          * @return
          *     possible object is
          *     {@link BigDecimal }
-         *
+         *     
          */
         public BigDecimal getMonto() {
             return monto;
@@ -772,11 +772,11 @@ public class Pagos {
 
         /**
          * Define el valor de la propiedad monto.
-         *
+         * 
          * @param value
          *     allowed object is
          *     {@link BigDecimal }
-         *
+         *     
          */
         public void setMonto(BigDecimal value) {
             this.monto = value;
@@ -784,11 +784,11 @@ public class Pagos {
 
         /**
          * Obtiene el valor de la propiedad numOperacion.
-         *
+         * 
          * @return
          *     possible object is
          *     {@link String }
-         *
+         *     
          */
         public String getNumOperacion() {
             return numOperacion;
@@ -796,11 +796,11 @@ public class Pagos {
 
         /**
          * Define el valor de la propiedad numOperacion.
-         *
+         * 
          * @param value
          *     allowed object is
          *     {@link String }
-         *
+         *     
          */
         public void setNumOperacion(String value) {
             this.numOperacion = value;
@@ -808,11 +808,11 @@ public class Pagos {
 
         /**
          * Obtiene el valor de la propiedad rfcEmisorCtaOrd.
-         *
+         * 
          * @return
          *     possible object is
          *     {@link String }
-         *
+         *     
          */
         public String getRfcEmisorCtaOrd() {
             return rfcEmisorCtaOrd;
@@ -820,11 +820,11 @@ public class Pagos {
 
         /**
          * Define el valor de la propiedad rfcEmisorCtaOrd.
-         *
+         * 
          * @param value
          *     allowed object is
          *     {@link String }
-         *
+         *     
          */
         public void setRfcEmisorCtaOrd(String value) {
             this.rfcEmisorCtaOrd = value;
@@ -832,11 +832,11 @@ public class Pagos {
 
         /**
          * Obtiene el valor de la propiedad nomBancoOrdExt.
-         *
+         * 
          * @return
          *     possible object is
          *     {@link String }
-         *
+         *     
          */
         public String getNomBancoOrdExt() {
             return nomBancoOrdExt;
@@ -844,11 +844,11 @@ public class Pagos {
 
         /**
          * Define el valor de la propiedad nomBancoOrdExt.
-         *
+         * 
          * @param value
          *     allowed object is
          *     {@link String }
-         *
+         *     
          */
         public void setNomBancoOrdExt(String value) {
             this.nomBancoOrdExt = value;
@@ -856,11 +856,11 @@ public class Pagos {
 
         /**
          * Obtiene el valor de la propiedad ctaOrdenante.
-         *
+         * 
          * @return
          *     possible object is
          *     {@link String }
-         *
+         *     
          */
         public String getCtaOrdenante() {
             return ctaOrdenante;
@@ -868,11 +868,11 @@ public class Pagos {
 
         /**
          * Define el valor de la propiedad ctaOrdenante.
-         *
+         * 
          * @param value
          *     allowed object is
          *     {@link String }
-         *
+         *     
          */
         public void setCtaOrdenante(String value) {
             this.ctaOrdenante = value;
@@ -880,11 +880,11 @@ public class Pagos {
 
         /**
          * Obtiene el valor de la propiedad rfcEmisorCtaBen.
-         *
+         * 
          * @return
          *     possible object is
          *     {@link String }
-         *
+         *     
          */
         public String getRfcEmisorCtaBen() {
             return rfcEmisorCtaBen;
@@ -892,11 +892,11 @@ public class Pagos {
 
         /**
          * Define el valor de la propiedad rfcEmisorCtaBen.
-         *
+         * 
          * @param value
          *     allowed object is
          *     {@link String }
-         *
+         *     
          */
         public void setRfcEmisorCtaBen(String value) {
             this.rfcEmisorCtaBen = value;
@@ -904,11 +904,11 @@ public class Pagos {
 
         /**
          * Obtiene el valor de la propiedad ctaBeneficiario.
-         *
+         * 
          * @return
          *     possible object is
          *     {@link String }
-         *
+         *     
          */
         public String getCtaBeneficiario() {
             return ctaBeneficiario;
@@ -916,11 +916,11 @@ public class Pagos {
 
         /**
          * Define el valor de la propiedad ctaBeneficiario.
-         *
+         * 
          * @param value
          *     allowed object is
          *     {@link String }
-         *
+         *     
          */
         public void setCtaBeneficiario(String value) {
             this.ctaBeneficiario = value;
@@ -928,11 +928,11 @@ public class Pagos {
 
         /**
          * Obtiene el valor de la propiedad tipoCadPago.
-         *
+         * 
          * @return
          *     possible object is
          *     {@link String }
-         *
+         *     
          */
         public String getTipoCadPago() {
             return tipoCadPago;
@@ -940,11 +940,11 @@ public class Pagos {
 
         /**
          * Define el valor de la propiedad tipoCadPago.
-         *
+         * 
          * @param value
          *     allowed object is
          *     {@link String }
-         *
+         *     
          */
         public void setTipoCadPago(String value) {
             this.tipoCadPago = value;
@@ -952,7 +952,7 @@ public class Pagos {
 
         /**
          * Obtiene el valor de la propiedad certPago.
-         *
+         * 
          * @return
          *     possible object is
          *     byte[]
@@ -963,7 +963,7 @@ public class Pagos {
 
         /**
          * Define el valor de la propiedad certPago.
-         *
+         * 
          * @param value
          *     allowed object is
          *     byte[]
@@ -974,11 +974,11 @@ public class Pagos {
 
         /**
          * Obtiene el valor de la propiedad cadPago.
-         *
+         * 
          * @return
          *     possible object is
          *     {@link String }
-         *
+         *     
          */
         public String getCadPago() {
             return cadPago;
@@ -986,11 +986,11 @@ public class Pagos {
 
         /**
          * Define el valor de la propiedad cadPago.
-         *
+         * 
          * @param value
          *     allowed object is
          *     {@link String }
-         *
+         *     
          */
         public void setCadPago(String value) {
             this.cadPago = value;
@@ -998,7 +998,7 @@ public class Pagos {
 
         /**
          * Obtiene el valor de la propiedad selloPago.
-         *
+         * 
          * @return
          *     possible object is
          *     byte[]
@@ -1009,7 +1009,7 @@ public class Pagos {
 
         /**
          * Define el valor de la propiedad selloPago.
-         *
+         * 
          * @param value
          *     allowed object is
          *     byte[]
@@ -1021,9 +1021,9 @@ public class Pagos {
 
         /**
          * <p>Clase Java para anonymous complex type.
-         *
+         * 
          * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
-         *
+         * 
          * <pre>
          * &lt;complexType&gt;
          *   &lt;complexContent&gt;
@@ -1084,8 +1084,8 @@ public class Pagos {
          *   &lt;/complexContent&gt;
          * &lt;/complexType&gt;
          * </pre>
-         *
-         *
+         * 
+         * 
          */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "")
@@ -1114,11 +1114,11 @@ public class Pagos {
 
             /**
              * Obtiene el valor de la propiedad idDocumento.
-             *
+             * 
              * @return
              *     possible object is
              *     {@link String }
-             *
+             *     
              */
             public String getIdDocumento() {
                 return idDocumento;
@@ -1126,11 +1126,11 @@ public class Pagos {
 
             /**
              * Define el valor de la propiedad idDocumento.
-             *
+             * 
              * @param value
              *     allowed object is
              *     {@link String }
-             *
+             *     
              */
             public void setIdDocumento(String value) {
                 this.idDocumento = value;
@@ -1138,11 +1138,11 @@ public class Pagos {
 
             /**
              * Obtiene el valor de la propiedad serie.
-             *
+             * 
              * @return
              *     possible object is
              *     {@link String }
-             *
+             *     
              */
             public String getSerie() {
                 return serie;
@@ -1150,11 +1150,11 @@ public class Pagos {
 
             /**
              * Define el valor de la propiedad serie.
-             *
+             * 
              * @param value
              *     allowed object is
              *     {@link String }
-             *
+             *     
              */
             public void setSerie(String value) {
                 this.serie = value;
@@ -1162,11 +1162,11 @@ public class Pagos {
 
             /**
              * Obtiene el valor de la propiedad folio.
-             *
+             * 
              * @return
              *     possible object is
              *     {@link String }
-             *
+             *     
              */
             public String getFolio() {
                 return folio;
@@ -1174,11 +1174,11 @@ public class Pagos {
 
             /**
              * Define el valor de la propiedad folio.
-             *
+             * 
              * @param value
              *     allowed object is
              *     {@link String }
-             *
+             *     
              */
             public void setFolio(String value) {
                 this.folio = value;
@@ -1186,11 +1186,11 @@ public class Pagos {
 
             /**
              * Obtiene el valor de la propiedad monedaDR.
-             *
+             * 
              * @return
              *     possible object is
              *     {@link CMoneda }
-             *
+             *     
              */
             public CMoneda getMonedaDR() {
                 return monedaDR;
@@ -1198,11 +1198,11 @@ public class Pagos {
 
             /**
              * Define el valor de la propiedad monedaDR.
-             *
+             * 
              * @param value
              *     allowed object is
              *     {@link CMoneda }
-             *
+             *     
              */
             public void setMonedaDR(CMoneda value) {
                 this.monedaDR = value;
@@ -1210,11 +1210,11 @@ public class Pagos {
 
             /**
              * Obtiene el valor de la propiedad tipoCambioDR.
-             *
+             * 
              * @return
              *     possible object is
              *     {@link BigDecimal }
-             *
+             *     
              */
             public BigDecimal getTipoCambioDR() {
                 return tipoCambioDR;
@@ -1222,11 +1222,11 @@ public class Pagos {
 
             /**
              * Define el valor de la propiedad tipoCambioDR.
-             *
+             * 
              * @param value
              *     allowed object is
              *     {@link BigDecimal }
-             *
+             *     
              */
             public void setTipoCambioDR(BigDecimal value) {
                 this.tipoCambioDR = value;
@@ -1234,11 +1234,11 @@ public class Pagos {
 
             /**
              * Obtiene el valor de la propiedad metodoDePagoDR.
-             *
+             * 
              * @return
              *     possible object is
              *     {@link CMetodoPago }
-             *
+             *     
              */
             public CMetodoPago getMetodoDePagoDR() {
                 return metodoDePagoDR;
@@ -1246,11 +1246,11 @@ public class Pagos {
 
             /**
              * Define el valor de la propiedad metodoDePagoDR.
-             *
+             * 
              * @param value
              *     allowed object is
              *     {@link CMetodoPago }
-             *
+             *     
              */
             public void setMetodoDePagoDR(CMetodoPago value) {
                 this.metodoDePagoDR = value;
@@ -1258,11 +1258,11 @@ public class Pagos {
 
             /**
              * Obtiene el valor de la propiedad numParcialidad.
-             *
+             * 
              * @return
              *     possible object is
              *     {@link BigInteger }
-             *
+             *     
              */
             public BigInteger getNumParcialidad() {
                 return numParcialidad;
@@ -1270,11 +1270,11 @@ public class Pagos {
 
             /**
              * Define el valor de la propiedad numParcialidad.
-             *
+             * 
              * @param value
              *     allowed object is
              *     {@link BigInteger }
-             *
+             *     
              */
             public void setNumParcialidad(BigInteger value) {
                 this.numParcialidad = value;
@@ -1282,11 +1282,11 @@ public class Pagos {
 
             /**
              * Obtiene el valor de la propiedad impSaldoAnt.
-             *
+             * 
              * @return
              *     possible object is
              *     {@link BigDecimal }
-             *
+             *     
              */
             public BigDecimal getImpSaldoAnt() {
                 return impSaldoAnt;
@@ -1294,11 +1294,11 @@ public class Pagos {
 
             /**
              * Define el valor de la propiedad impSaldoAnt.
-             *
+             * 
              * @param value
              *     allowed object is
              *     {@link BigDecimal }
-             *
+             *     
              */
             public void setImpSaldoAnt(BigDecimal value) {
                 this.impSaldoAnt = value;
@@ -1306,11 +1306,11 @@ public class Pagos {
 
             /**
              * Obtiene el valor de la propiedad impPagado.
-             *
+             * 
              * @return
              *     possible object is
              *     {@link BigDecimal }
-             *
+             *     
              */
             public BigDecimal getImpPagado() {
                 return impPagado;
@@ -1318,11 +1318,11 @@ public class Pagos {
 
             /**
              * Define el valor de la propiedad impPagado.
-             *
+             * 
              * @param value
              *     allowed object is
              *     {@link BigDecimal }
-             *
+             *     
              */
             public void setImpPagado(BigDecimal value) {
                 this.impPagado = value;
@@ -1330,11 +1330,11 @@ public class Pagos {
 
             /**
              * Obtiene el valor de la propiedad impSaldoInsoluto.
-             *
+             * 
              * @return
              *     possible object is
              *     {@link BigDecimal }
-             *
+             *     
              */
             public BigDecimal getImpSaldoInsoluto() {
                 return impSaldoInsoluto;
@@ -1342,11 +1342,11 @@ public class Pagos {
 
             /**
              * Define el valor de la propiedad impSaldoInsoluto.
-             *
+             * 
              * @param value
              *     allowed object is
              *     {@link BigDecimal }
-             *
+             *     
              */
             public void setImpSaldoInsoluto(BigDecimal value) {
                 this.impSaldoInsoluto = value;
@@ -1357,9 +1357,9 @@ public class Pagos {
 
         /**
          * <p>Clase Java para anonymous complex type.
-         *
+         * 
          * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
-         *
+         * 
          * <pre>
          * &lt;complexType&gt;
          *   &lt;complexContent&gt;
@@ -1422,8 +1422,8 @@ public class Pagos {
          *   &lt;/complexContent&gt;
          * &lt;/complexType&gt;
          * </pre>
-         *
-         *
+         * 
+         * 
          */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
@@ -1443,11 +1443,11 @@ public class Pagos {
 
             /**
              * Obtiene el valor de la propiedad retenciones.
-             *
+             * 
              * @return
              *     possible object is
              *     {@link Pagos.Pago.Impuestos.Retenciones }
-             *
+             *     
              */
             public Pagos.Pago.Impuestos.Retenciones getRetenciones() {
                 return retenciones;
@@ -1455,11 +1455,11 @@ public class Pagos {
 
             /**
              * Define el valor de la propiedad retenciones.
-             *
+             * 
              * @param value
              *     allowed object is
              *     {@link Pagos.Pago.Impuestos.Retenciones }
-             *
+             *     
              */
             public void setRetenciones(Pagos.Pago.Impuestos.Retenciones value) {
                 this.retenciones = value;
@@ -1467,11 +1467,11 @@ public class Pagos {
 
             /**
              * Obtiene el valor de la propiedad traslados.
-             *
+             * 
              * @return
              *     possible object is
              *     {@link Pagos.Pago.Impuestos.Traslados }
-             *
+             *     
              */
             public Pagos.Pago.Impuestos.Traslados getTraslados() {
                 return traslados;
@@ -1479,11 +1479,11 @@ public class Pagos {
 
             /**
              * Define el valor de la propiedad traslados.
-             *
+             * 
              * @param value
              *     allowed object is
              *     {@link Pagos.Pago.Impuestos.Traslados }
-             *
+             *     
              */
             public void setTraslados(Pagos.Pago.Impuestos.Traslados value) {
                 this.traslados = value;
@@ -1491,11 +1491,11 @@ public class Pagos {
 
             /**
              * Obtiene el valor de la propiedad totalImpuestosRetenidos.
-             *
+             * 
              * @return
              *     possible object is
              *     {@link BigDecimal }
-             *
+             *     
              */
             public BigDecimal getTotalImpuestosRetenidos() {
                 return totalImpuestosRetenidos;
@@ -1503,11 +1503,11 @@ public class Pagos {
 
             /**
              * Define el valor de la propiedad totalImpuestosRetenidos.
-             *
+             * 
              * @param value
              *     allowed object is
              *     {@link BigDecimal }
-             *
+             *     
              */
             public void setTotalImpuestosRetenidos(BigDecimal value) {
                 this.totalImpuestosRetenidos = value;
@@ -1515,11 +1515,11 @@ public class Pagos {
 
             /**
              * Obtiene el valor de la propiedad totalImpuestosTrasladados.
-             *
+             * 
              * @return
              *     possible object is
              *     {@link BigDecimal }
-             *
+             *     
              */
             public BigDecimal getTotalImpuestosTrasladados() {
                 return totalImpuestosTrasladados;
@@ -1527,11 +1527,11 @@ public class Pagos {
 
             /**
              * Define el valor de la propiedad totalImpuestosTrasladados.
-             *
+             * 
              * @param value
              *     allowed object is
              *     {@link BigDecimal }
-             *
+             *     
              */
             public void setTotalImpuestosTrasladados(BigDecimal value) {
                 this.totalImpuestosTrasladados = value;
@@ -1540,9 +1540,9 @@ public class Pagos {
 
             /**
              * <p>Clase Java para anonymous complex type.
-             *
+             * 
              * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
-             *
+             * 
              * <pre>
              * &lt;complexType&gt;
              *   &lt;complexContent&gt;
@@ -1563,8 +1563,8 @@ public class Pagos {
              *   &lt;/complexContent&gt;
              * &lt;/complexType&gt;
              * </pre>
-             *
-             *
+             * 
+             * 
              */
             @XmlAccessorType(XmlAccessType.FIELD)
             @XmlType(name = "", propOrder = {
@@ -1577,25 +1577,25 @@ public class Pagos {
 
                 /**
                  * Gets the value of the retencion property.
-                 *
+                 * 
                  * <p>
                  * This accessor method returns a reference to the live list,
                  * not a snapshot. Therefore any modification you make to the
                  * returned list will be present inside the JAXB object.
                  * This is why there is not a <CODE>set</CODE> method for the retencion property.
-                 *
+                 * 
                  * <p>
                  * For example, to add a new item, do as follows:
                  * <pre>
                  *    getRetencion().add(newItem);
                  * </pre>
-                 *
-                 *
+                 * 
+                 * 
                  * <p>
                  * Objects of the following type(s) are allowed in the list
                  * {@link Pagos.Pago.Impuestos.Retenciones.Retencion }
-                 *
-                 *
+                 * 
+                 * 
                  */
                 public List<Pagos.Pago.Impuestos.Retenciones.Retencion> getRetencion() {
                     if (retencion == null) {
@@ -1607,9 +1607,9 @@ public class Pagos {
 
                 /**
                  * <p>Clase Java para anonymous complex type.
-                 *
+                 * 
                  * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
-                 *
+                 * 
                  * <pre>
                  * &lt;complexType&gt;
                  *   &lt;complexContent&gt;
@@ -1620,8 +1620,8 @@ public class Pagos {
                  *   &lt;/complexContent&gt;
                  * &lt;/complexType&gt;
                  * </pre>
-                 *
-                 *
+                 * 
+                 * 
                  */
                 @XmlAccessorType(XmlAccessType.FIELD)
                 @XmlType(name = "")
@@ -1634,11 +1634,11 @@ public class Pagos {
 
                     /**
                      * Obtiene el valor de la propiedad impuesto.
-                     *
+                     * 
                      * @return
                      *     possible object is
                      *     {@link String }
-                     *
+                     *     
                      */
                     public String getImpuesto() {
                         return impuesto;
@@ -1646,11 +1646,11 @@ public class Pagos {
 
                     /**
                      * Define el valor de la propiedad impuesto.
-                     *
+                     * 
                      * @param value
                      *     allowed object is
                      *     {@link String }
-                     *
+                     *     
                      */
                     public void setImpuesto(String value) {
                         this.impuesto = value;
@@ -1658,11 +1658,11 @@ public class Pagos {
 
                     /**
                      * Obtiene el valor de la propiedad importe.
-                     *
+                     * 
                      * @return
                      *     possible object is
                      *     {@link BigDecimal }
-                     *
+                     *     
                      */
                     public BigDecimal getImporte() {
                         return importe;
@@ -1670,11 +1670,11 @@ public class Pagos {
 
                     /**
                      * Define el valor de la propiedad importe.
-                     *
+                     * 
                      * @param value
                      *     allowed object is
                      *     {@link BigDecimal }
-                     *
+                     *     
                      */
                     public void setImporte(BigDecimal value) {
                         this.importe = value;
@@ -1687,9 +1687,9 @@ public class Pagos {
 
             /**
              * <p>Clase Java para anonymous complex type.
-             *
+             * 
              * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
-             *
+             * 
              * <pre>
              * &lt;complexType&gt;
              *   &lt;complexContent&gt;
@@ -1720,8 +1720,8 @@ public class Pagos {
              *   &lt;/complexContent&gt;
              * &lt;/complexType&gt;
              * </pre>
-             *
-             *
+             * 
+             * 
              */
             @XmlAccessorType(XmlAccessType.FIELD)
             @XmlType(name = "", propOrder = {
@@ -1734,25 +1734,25 @@ public class Pagos {
 
                 /**
                  * Gets the value of the traslado property.
-                 *
+                 * 
                  * <p>
                  * This accessor method returns a reference to the live list,
                  * not a snapshot. Therefore any modification you make to the
                  * returned list will be present inside the JAXB object.
                  * This is why there is not a <CODE>set</CODE> method for the traslado property.
-                 *
+                 * 
                  * <p>
                  * For example, to add a new item, do as follows:
                  * <pre>
                  *    getTraslado().add(newItem);
                  * </pre>
-                 *
-                 *
+                 * 
+                 * 
                  * <p>
                  * Objects of the following type(s) are allowed in the list
                  * {@link Pagos.Pago.Impuestos.Traslados.Traslado }
-                 *
-                 *
+                 * 
+                 * 
                  */
                 public List<Pagos.Pago.Impuestos.Traslados.Traslado> getTraslado() {
                     if (traslado == null) {
@@ -1764,9 +1764,9 @@ public class Pagos {
 
                 /**
                  * <p>Clase Java para anonymous complex type.
-                 *
+                 * 
                  * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
-                 *
+                 * 
                  * <pre>
                  * &lt;complexType&gt;
                  *   &lt;complexContent&gt;
@@ -1787,8 +1787,8 @@ public class Pagos {
                  *   &lt;/complexContent&gt;
                  * &lt;/complexType&gt;
                  * </pre>
-                 *
-                 *
+                 * 
+                 * 
                  */
                 @XmlAccessorType(XmlAccessType.FIELD)
                 @XmlType(name = "")
@@ -1805,11 +1805,11 @@ public class Pagos {
 
                     /**
                      * Obtiene el valor de la propiedad impuesto.
-                     *
+                     * 
                      * @return
                      *     possible object is
                      *     {@link String }
-                     *
+                     *     
                      */
                     public String getImpuesto() {
                         return impuesto;
@@ -1817,11 +1817,11 @@ public class Pagos {
 
                     /**
                      * Define el valor de la propiedad impuesto.
-                     *
+                     * 
                      * @param value
                      *     allowed object is
                      *     {@link String }
-                     *
+                     *     
                      */
                     public void setImpuesto(String value) {
                         this.impuesto = value;
@@ -1829,11 +1829,11 @@ public class Pagos {
 
                     /**
                      * Obtiene el valor de la propiedad tipoFactor.
-                     *
+                     * 
                      * @return
                      *     possible object is
                      *     {@link CTipoFactor }
-                     *
+                     *     
                      */
                     public CTipoFactor getTipoFactor() {
                         return tipoFactor;
@@ -1841,11 +1841,11 @@ public class Pagos {
 
                     /**
                      * Define el valor de la propiedad tipoFactor.
-                     *
+                     * 
                      * @param value
                      *     allowed object is
                      *     {@link CTipoFactor }
-                     *
+                     *     
                      */
                     public void setTipoFactor(CTipoFactor value) {
                         this.tipoFactor = value;
@@ -1853,11 +1853,11 @@ public class Pagos {
 
                     /**
                      * Obtiene el valor de la propiedad tasaOCuota.
-                     *
+                     * 
                      * @return
                      *     possible object is
                      *     {@link BigDecimal }
-                     *
+                     *     
                      */
                     public BigDecimal getTasaOCuota() {
                         return tasaOCuota;
@@ -1865,11 +1865,11 @@ public class Pagos {
 
                     /**
                      * Define el valor de la propiedad tasaOCuota.
-                     *
+                     * 
                      * @param value
                      *     allowed object is
                      *     {@link BigDecimal }
-                     *
+                     *     
                      */
                     public void setTasaOCuota(BigDecimal value) {
                         this.tasaOCuota = value;
@@ -1877,11 +1877,11 @@ public class Pagos {
 
                     /**
                      * Obtiene el valor de la propiedad importe.
-                     *
+                     * 
                      * @return
                      *     possible object is
                      *     {@link BigDecimal }
-                     *
+                     *     
                      */
                     public BigDecimal getImporte() {
                         return importe;
@@ -1889,11 +1889,11 @@ public class Pagos {
 
                     /**
                      * Define el valor de la propiedad importe.
-                     *
+                     * 
                      * @param value
                      *     allowed object is
                      *     {@link BigDecimal }
-                     *
+                     *     
                      */
                     public void setImporte(BigDecimal value) {
                         this.importe = value;

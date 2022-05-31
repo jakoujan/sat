@@ -1,25 +1,24 @@
 //
-// Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2
-// Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a>
-// Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen.
-// Generado el: 2022.02.19 a las 05:22:48 PM CST
+// Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
+// Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+// Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+// Generado el: 2022.05.30 a las 07:05:33 PM CDT 
 //
+
+
 package com.mcss.sat.cfdi;
 
 import javax.xml.bind.annotation.XmlEnum;
 import javax.xml.bind.annotation.XmlEnumValue;
 import javax.xml.bind.annotation.XmlType;
 
+
 /**
+ * <p>Clase Java para c_Estaciones.
+ * 
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * <p>
- * Clase Java para c_Estaciones.
- *
- * <p>
- * El siguiente fragmento de esquema especifica el contenido que se espera que
- * haya en esta clase.
- * <p>
- * <
- * pre>
+ * <pre>
  * &lt;simpleType name="c_Estaciones"&gt;
  *   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string"&gt;
  *     &lt;whiteSpace value="collapse"/&gt;
@@ -8471,14 +8470,12 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/restriction&gt;
  * &lt;/simpleType&gt;
  * </pre>
- *
+ * 
  */
 @XmlType(name = "c_Estaciones", namespace = "http://www.sat.gob.mx/sitio_internet/cfd/catalogos/CartaPorte")
 @XmlEnum
 public enum CEstaciones {
 
-    @XmlEnumValue("V0102")
-    V_0102("V0102"),
     @XmlEnumValue("EF0001")
     EF_0001("EF0001");
     private final String value;
@@ -8492,7 +8489,7 @@ public enum CEstaciones {
     }
 
     public static CEstaciones fromValue(String v) {
-        for (CEstaciones c : CEstaciones.values()) {
+        for (CEstaciones c: CEstaciones.values()) {
             if (c.value.equals(v)) {
                 return c;
             }

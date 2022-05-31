@@ -2,7 +2,7 @@
 // Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
 // Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2022.02.19 a las 05:22:48 PM CST 
+// Generado el: 2022.05.30 a las 07:05:33 PM CDT 
 //
 
 
@@ -22,8 +22,25 @@ import javax.xml.bind.annotation.XmlType;
  * &lt;simpleType name="c_NumAutorizacionNaviero"&gt;
  *   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string"&gt;
  *     &lt;whiteSpace value="collapse"/&gt;
+ *     &lt;enumeration value="ANC001/2022"/&gt;
+ *     &lt;enumeration value="ANC002/2022"/&gt;
+ *     &lt;enumeration value="ANC005/2022"/&gt;
+ *     &lt;enumeration value="ANC012/2022"/&gt;
  *     &lt;enumeration value="ANC41/2021"/&gt;
  *     &lt;enumeration value="ANC49/2021"/&gt;
+ *     &lt;enumeration value="ANC54/2021"/&gt;
+ *     &lt;enumeration value="ANC58/2021"/&gt;
+ *     &lt;enumeration value="ANG003/2022"/&gt;
+ *     &lt;enumeration value="ANG004/2022"/&gt;
+ *     &lt;enumeration value="ANG006/2022"/&gt;
+ *     &lt;enumeration value="ANG007/2022"/&gt;
+ *     &lt;enumeration value="ANG008/2022"/&gt;
+ *     &lt;enumeration value="ANG009/2022"/&gt;
+ *     &lt;enumeration value="ANG010/2022"/&gt;
+ *     &lt;enumeration value="ANG013/2022"/&gt;
+ *     &lt;enumeration value="ANG014/2022"/&gt;
+ *     &lt;enumeration value="ANG015/2022"/&gt;
+ *     &lt;enumeration value="ANG016/2022"/&gt;
  *     &lt;enumeration value="ANG39-2021"/&gt;
  *     &lt;enumeration value="ANG40-2021"/&gt;
  *     &lt;enumeration value="ANG42/2021"/&gt;
@@ -35,7 +52,12 @@ import javax.xml.bind.annotation.XmlType;
  *     &lt;enumeration value="ANG48/2021"/&gt;
  *     &lt;enumeration value="ANG50/2021"/&gt;
  *     &lt;enumeration value="ANG51/2021"/&gt;
- *     &lt;enumeration value="SCT418-030-2021"/&gt;
+ *     &lt;enumeration value="ANG52/2021"/&gt;
+ *     &lt;enumeration value="ANG53/2021"/&gt;
+ *     &lt;enumeration value="ANG55/2021"/&gt;
+ *     &lt;enumeration value="ANG56/2021"/&gt;
+ *     &lt;enumeration value="ANG57/2021"/&gt;
+ *     &lt;enumeration value="ANG59/2021"/&gt;
  *     &lt;enumeration value="SCT418-011-2021"/&gt;
  *     &lt;enumeration value="SCT418-012-2021"/&gt;
  *     &lt;enumeration value="SCT418-014-2021"/&gt;
@@ -52,6 +74,7 @@ import javax.xml.bind.annotation.XmlType;
  *     &lt;enumeration value="SCT418-027-2021"/&gt;
  *     &lt;enumeration value="SCT418-028-2021"/&gt;
  *     &lt;enumeration value="SCT418-029-2021"/&gt;
+ *     &lt;enumeration value="SCT418-030-2021"/&gt;
  *     &lt;enumeration value="SCT418-031-2021"/&gt;
  *     &lt;enumeration value="SCT418-032-2021"/&gt;
  *     &lt;enumeration value="SCT418-033-2021"/&gt;
@@ -328,10 +351,44 @@ import javax.xml.bind.annotation.XmlType;
 @XmlEnum
 public enum CNumAutorizacionNaviero {
 
+    @XmlEnumValue("ANC001/2022")
+    ANC_001_2022("ANC001/2022"),
+    @XmlEnumValue("ANC002/2022")
+    ANC_002_2022("ANC002/2022"),
+    @XmlEnumValue("ANC005/2022")
+    ANC_005_2022("ANC005/2022"),
+    @XmlEnumValue("ANC012/2022")
+    ANC_012_2022("ANC012/2022"),
     @XmlEnumValue("ANC41/2021")
     ANC_41_2021("ANC41/2021"),
     @XmlEnumValue("ANC49/2021")
     ANC_49_2021("ANC49/2021"),
+    @XmlEnumValue("ANC54/2021")
+    ANC_54_2021("ANC54/2021"),
+    @XmlEnumValue("ANC58/2021")
+    ANC_58_2021("ANC58/2021"),
+    @XmlEnumValue("ANG003/2022")
+    ANG_003_2022("ANG003/2022"),
+    @XmlEnumValue("ANG004/2022")
+    ANG_004_2022("ANG004/2022"),
+    @XmlEnumValue("ANG006/2022")
+    ANG_006_2022("ANG006/2022"),
+    @XmlEnumValue("ANG007/2022")
+    ANG_007_2022("ANG007/2022"),
+    @XmlEnumValue("ANG008/2022")
+    ANG_008_2022("ANG008/2022"),
+    @XmlEnumValue("ANG009/2022")
+    ANG_009_2022("ANG009/2022"),
+    @XmlEnumValue("ANG010/2022")
+    ANG_010_2022("ANG010/2022"),
+    @XmlEnumValue("ANG013/2022")
+    ANG_013_2022("ANG013/2022"),
+    @XmlEnumValue("ANG014/2022")
+    ANG_014_2022("ANG014/2022"),
+    @XmlEnumValue("ANG015/2022")
+    ANG_015_2022("ANG015/2022"),
+    @XmlEnumValue("ANG016/2022")
+    ANG_016_2022("ANG016/2022"),
     @XmlEnumValue("ANG39-2021")
     ANG_39_2021("ANG39-2021"),
     @XmlEnumValue("ANG40-2021")
@@ -354,8 +411,18 @@ public enum CNumAutorizacionNaviero {
     ANG_50_2021("ANG50/2021"),
     @XmlEnumValue("ANG51/2021")
     ANG_51_2021("ANG51/2021"),
-    @XmlEnumValue("SCT418-030-2021")
-    SCT_418_030_2021("SCT418-030-2021"),
+    @XmlEnumValue("ANG52/2021")
+    ANG_52_2021("ANG52/2021"),
+    @XmlEnumValue("ANG53/2021")
+    ANG_53_2021("ANG53/2021"),
+    @XmlEnumValue("ANG55/2021")
+    ANG_55_2021("ANG55/2021"),
+    @XmlEnumValue("ANG56/2021")
+    ANG_56_2021("ANG56/2021"),
+    @XmlEnumValue("ANG57/2021")
+    ANG_57_2021("ANG57/2021"),
+    @XmlEnumValue("ANG59/2021")
+    ANG_59_2021("ANG59/2021"),
     @XmlEnumValue("SCT418-011-2021")
     SCT_418_011_2021("SCT418-011-2021"),
     @XmlEnumValue("SCT418-012-2021")
@@ -388,6 +455,8 @@ public enum CNumAutorizacionNaviero {
     SCT_418_028_2021("SCT418-028-2021"),
     @XmlEnumValue("SCT418-029-2021")
     SCT_418_029_2021("SCT418-029-2021"),
+    @XmlEnumValue("SCT418-030-2021")
+    SCT_418_030_2021("SCT418-030-2021"),
     @XmlEnumValue("SCT418-031-2021")
     SCT_418_031_2021("SCT418-031-2021"),
     @XmlEnumValue("SCT418-032-2021")

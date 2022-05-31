@@ -5,118 +5,126 @@
 Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
 Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-Generado el: 2021.12.21 a las 02:54:31 PM CST 
+Generado el: 2022.02.25 a las 07:25:24 PM CST 
 
   -->
   <bindings scd="x-schema::tns" xmlns:tns="http://www.sat.gob.mx/CartaPorte20">
     <schemaBindings map="false">
-      <package name="com.mcss.sat.cfdi2"/>
+      <package name="com.mcss.sat.cfdi"/>
     </schemaBindings>
     <bindings scd="tns:CartaPorte">
-      <class ref="com.mcss.sat.cfdi2.CartaPorte"/>
+      <class ref="com.mcss.sat.cfdi.CartaPorte"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.sat.gob.mx/Pagos">
+    <schemaBindings map="false">
+      <package name="com.mcss.sat.cfdi"/>
+    </schemaBindings>
+    <bindings scd="tns:Pagos">
+      <class ref="com.mcss.sat.cfdi.Pagos"/>
     </bindings>
   </bindings>
   <bindings scd="x-schema::tns" xmlns:tns="http://www.sat.gob.mx/cfd/3">
     <schemaBindings map="false">
-      <package name="com.mcss.sat.cfdi2"/>
+      <package name="com.mcss.sat.cfdi"/>
     </schemaBindings>
     <bindings scd="tns:Comprobante">
-      <class ref="com.mcss.sat.cfdi2.Comprobante"/>
+      <class ref="com.mcss.sat.cfdi.Comprobante"/>
     </bindings>
   </bindings>
   <bindings scd="x-schema::tns" xmlns:tns="http://www.sat.gob.mx/TimbreFiscalDigital">
     <schemaBindings map="false">
-      <package name="com.mcss.sat.cfdi2"/>
+      <package name="com.mcss.sat.cfdi"/>
     </schemaBindings>
     <bindings scd="tns:TimbreFiscalDigital">
-      <class ref="com.mcss.sat.cfdi2.TimbreFiscalDigital"/>
+      <class ref="com.mcss.sat.cfdi.TimbreFiscalDigital"/>
     </bindings>
   </bindings>
   <bindings scd="x-schema::tns" xmlns:tns="http://www.sat.gob.mx/sitio_internet/cfd/catalogos">
     <schemaBindings map="false">
-      <package name="com.mcss.sat.cfdi2"/>
+      <package name="com.mcss.sat.cfdi"/>
     </schemaBindings>
     <bindings scd="~tns:c_Pais">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CPais"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CPais"/>
     </bindings>
     <bindings scd="~tns:c_Moneda">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CMoneda"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CMoneda"/>
     </bindings>
     <bindings scd="~tns:c_TipoDeComprobante">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CTipoDeComprobante"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CTipoDeComprobante"/>
     </bindings>
     <bindings scd="~tns:c_MetodoPago">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CMetodoPago"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CMetodoPago"/>
     </bindings>
     <bindings scd="~tns:c_UsoCFDI">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CUsoCFDI"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CUsoCFDI"/>
     </bindings>
     <bindings scd="~tns:c_TipoFactor">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CTipoFactor"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CTipoFactor"/>
     </bindings>
     <bindings scd="~tns:c_Estado">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CEstado"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CEstado"/>
     </bindings>
   </bindings>
   <bindings scd="x-schema::tns" xmlns:tns="http://www.sat.gob.mx/sitio_internet/cfd/catalogos/ComExt">
     <schemaBindings map="false">
-      <package name="com.mcss.sat.cfdi2"/>
+      <package name="com.mcss.sat.cfdi"/>
     </schemaBindings>
     <bindings scd="~tns:c_ClavePedimento">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CClavePedimento"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CClavePedimento"/>
     </bindings>
     <bindings scd="~tns:c_INCOTERM">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CINCOTERM"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CINCOTERM"/>
     </bindings>
   </bindings>
   <bindings scd="x-schema::tns" xmlns:tns="http://www.sat.gob.mx/sitio_internet/cfd/catalogos/CartaPorte">
     <schemaBindings map="false">
-      <package name="com.mcss.sat.cfdi2"/>
+      <package name="com.mcss.sat.cfdi"/>
     </schemaBindings>
     <bindings scd="~tns:c_Estaciones">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CEstaciones"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CEstaciones"/>
     </bindings>
     <bindings scd="~tns:c_TipoPermiso">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CTipoPermiso"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CTipoPermiso"/>
     </bindings>
     <bindings scd="~tns:c_ConfigAutotransporte">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CConfigAutotransporte"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CConfigAutotransporte"/>
     </bindings>
     <bindings scd="~tns:c_SubTipoRem">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CSubTipoRem"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CSubTipoRem"/>
     </bindings>
     <bindings scd="~tns:c_ConfigMaritima">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CConfigMaritima"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CConfigMaritima"/>
     </bindings>
     <bindings scd="~tns:c_ClaveTipoCarga">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CClaveTipoCarga"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CClaveTipoCarga"/>
     </bindings>
     <bindings scd="~tns:c_ContenedorMaritimo">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CContenedorMaritimo"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CContenedorMaritimo"/>
     </bindings>
     <bindings scd="~tns:c_NumAutorizacionNaviero">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CNumAutorizacionNaviero"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CNumAutorizacionNaviero"/>
     </bindings>
     <bindings scd="~tns:c_CodigoTransporteAereo">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CCodigoTransporteAereo"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CCodigoTransporteAereo"/>
     </bindings>
     <bindings scd="~tns:c_TipoDeServicio">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CTipoDeServicio"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CTipoDeServicio"/>
     </bindings>
     <bindings scd="~tns:c_DerechosDePaso">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CDerechosDePaso"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CDerechosDePaso"/>
     </bindings>
     <bindings scd="~tns:c_TipoCarro">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CTipoCarro"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CTipoCarro"/>
     </bindings>
     <bindings scd="~tns:c_Contenedor">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CContenedor"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CContenedor"/>
     </bindings>
     <bindings scd="~tns:c_TipoDeTrafico">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CTipoDeTrafico"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CTipoDeTrafico"/>
     </bindings>
     <bindings scd="~tns:c_ParteTransporte">
-      <typesafeEnumClass ref="com.mcss.sat.cfdi2.CParteTransporte"/>
+      <typesafeEnumClass ref="com.mcss.sat.cfdi.CParteTransporte"/>
     </bindings>
   </bindings>
 </bindings>

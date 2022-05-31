@@ -5,7 +5,7 @@
 Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
 Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-Generado el: 2021.12.21 a las 02:56:24 PM CST 
+Generado el: 2022.03.01 a las 09:14:55 AM CST 
 
   -->
   <bindings scd="x-schema::tns" xmlns:tns="http://www.sat.gob.mx/CartaPorte20">
@@ -14,6 +14,14 @@ Generado el: 2021.12.21 a las 02:56:24 PM CST
     </schemaBindings>
     <bindings scd="tns:CartaPorte">
       <class ref="com.mcss.sat.cfdi.CartaPorte"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.sat.gob.mx/Pagos">
+    <schemaBindings map="false">
+      <package name="com.mcss.sat.cfdi"/>
+    </schemaBindings>
+    <bindings scd="tns:Pagos">
+      <class ref="com.mcss.sat.cfdi.Pagos"/>
     </bindings>
   </bindings>
   <bindings scd="x-schema::tns" xmlns:tns="http://www.sat.gob.mx/cfd/3">
